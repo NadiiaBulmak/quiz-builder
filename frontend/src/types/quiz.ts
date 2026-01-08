@@ -17,9 +17,11 @@ export type AnswerOptionInput = {
   isCorrect?: boolean;
 };
 
+export type QuestionType = "BOOLEAN" | "INPUT" | "CHECKBOX";
+
 export type QuestionInput = {
   text: string;
-  type: "BOOLEAN" | "INPUT" | "CHECKBOX";
+  type: QuestionType;
   options?: AnswerOptionInput[];
   correctAnswer?: string;
 };
@@ -46,6 +48,7 @@ export type Question = {
   text: string;
   options: Option[];
   correctAnswer?: string;
+  type: QuestionType;
 };
 
 export type Option = {
@@ -60,6 +63,7 @@ export type QuestionListProps = {
 
 export type QuestionOptionListProps = {
   options: Option[];
+  type: QuestionType;
 };
 
 export type DeleteQuizModalProps = {
@@ -75,7 +79,7 @@ export type QuizForm = {
 
 export type QuestionForm = {
   text: string;
-  type: "BOOLEAN" | "INPUT" | "CHECK";
+  type: QuestionType;
   options: OptionForm[];
 };
 

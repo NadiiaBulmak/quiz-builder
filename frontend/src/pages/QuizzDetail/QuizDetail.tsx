@@ -16,7 +16,6 @@ export const QuizDetailPage = () => {
   if (isLoading) {
     return <AppLoader />;
   }
-
   return (
     <VStack align="start" gap={6}>
       <SectionHeader title={texts.quizdetails.title} />

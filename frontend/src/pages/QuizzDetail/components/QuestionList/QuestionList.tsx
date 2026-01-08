@@ -1,4 +1,4 @@
-import { Box, Input, Text, VStack } from "@chakra-ui/react";
+import { Box, Text, VStack } from "@chakra-ui/react";
 import type { Question, QuestionListProps } from "@/types";
 import { QuestionOptionList } from "../QuestionOptionList";
 
@@ -9,10 +9,7 @@ export const QuestionList: React.FC<QuestionListProps> = ({ questions }) => (
         <Text fontWeight="bold" mb={2}>
           {index + 1}. {question.text}
         </Text>
-        <QuestionOptionList options={question.options} />
-        {question.options.length === 0 && (
-          <Input placeholder="Enter your answer" />
-        )}
+        <QuestionOptionList options={question.options} type={question.type} />
       </Box>
     ))}
   </VStack>
