@@ -1,0 +1,5 @@
+export const QUESTION_TYPE = {
+  BOOLEAN: "BOOLEAN",
+  CHECKBOX: "CHECKBOX",
+  INPUT: "INPUT",
+};

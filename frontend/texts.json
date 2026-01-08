@@ -1,0 +1,48 @@
+{
+  "app_name": "Quiz Builder",
+  "main": {
+    "title": "Welcome to Quiz Builder",
+    "description": "Create, manage, and explore quizzes in one simple interface.",
+    "features_title": "What you can do here",
+    "features": [
+      "Create quizzes with multiple question types",
+      "View all quizzes in one place",
+      "Explore quiz details and structure",
+      "Delete quizzes you no longer need"
+    ],
+    "support": "Need help? Contact our support team at",
+    "support_email": "nbulmak@gmail.com"
+  },
+  "quizlist": {
+    "title": "Quiz List"
+  },
+  "quizdetails": {
+    "title": "Quiz Details",
+    "description": "View detailed information about your quiz, including questions, answers, and statistics."
+  },
+  "quizcreate": {
+    "title": "Create a New Quiz",
+    "description": "Use this form to create a new quiz with multiple question types."
+  },
+  "nav_links": {
+    "quizzes": "Quizzes",
+    "create_quiz": "Create Quiz"
+  },
+  "select_answer": "* Select correct answer",
+  "add_option": "Add option",
+  "option_text": "Option text",
+  "correct_answer": "Correct answer",
+  "create_new_quiz": "Create New Quiz",
+  "quiz_title": "Quiz title",
+  "add_boolean_input": "Add Boolean Input",
+  "add_text_input": "Add Text Input",
+  "add_checkbox_input":"Add Checkbox Input",
+  "create_quiz": "Create Quiz",
+  "delete_confirmation": "Delete Confirmation",
+  "delete_confirmation_text": "Are you sure you want to delete this item? This action cannot be undone.",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "question_count": "Number of questions:",
+  "join": "Join"
+
+}
