@@ -6,7 +6,7 @@ export const QuizCardList: React.FC<QuizListProps> = ({
   list,
   setSelectedQuiz,
 }) => (
-  <SimpleGrid columns={{ base: 1, sm: 2, md: 3, lg: 4 }} gap={3}>
+  <SimpleGrid columns={{ base: 1, sm: 2, md: 3, lg: 4 }} gap={3} w='full'>
     {list.map((item) => (
       <QuizCard key={item.id} {...item} setSelectedQuiz={setSelectedQuiz} />
     ))}
